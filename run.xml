@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="URL"
+               value="https://anhtester.startkatalyst.com/account/sign-in" />
+
+    <test name="LoginTest">
+        <classes>
+            <class name="RunTestCase.Login"/>
+        </classes>
+    </test>
+</suite>
